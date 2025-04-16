@@ -2,15 +2,9 @@
 using namespace std;
 
 int main(){
-    int my_array[10];
+    int my_array[4]={12,34,45,63};
+    cout<< max(12,34,45,63);
 
-    cout << "Enter ten numbers from 1 to 10 are separated : \n";
-    cin >> my_array[10];
-
-    for (int i = 10; i >0; i--)
-    {
-        cout << i << " ";
-    }
 
     return 0;
 }
