@@ -3,12 +3,13 @@ using namespace std;
 
 int main(){
     int list[5]={5,8,2,9,4};
-    int num;
+    int num=9;
+    int len=sizeof(list)/sizeof(list[0]);
 
-    for(auto i : list){
+    for(int i=0;i<=len;i++){
         if(list[i] == num){
             cout<<num<<endl;
-            cout<<" found at index : "<<list[3]<<endl;
+            cout<<" found at index : "<<i<<endl;
 
         }
       
